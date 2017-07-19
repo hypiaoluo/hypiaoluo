@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
             mJazzy.setFadeEnabled(!mJazzy.getFadeEnabled());
         } else {
 
-
-
+            //阿拉啦
+         //   ACCESSIBILITY_SERVICE;
             JazzyViewPager.TransitionEffect effect = JazzyViewPager.TransitionEffect.valueOf(item.getTitle().toString());
             setupJazziness(effect);
         }
