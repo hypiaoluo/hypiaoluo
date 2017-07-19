@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         if (item.getTitle().toString().equals("Toggle Fade")) {
             mJazzy.setFadeEnabled(!mJazzy.getFadeEnabled());
         } else {
+
+
+
             JazzyViewPager.TransitionEffect effect = JazzyViewPager.TransitionEffect.valueOf(item.getTitle().toString());
             setupJazziness(effect);
         }
